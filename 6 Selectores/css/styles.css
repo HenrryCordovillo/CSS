@@ -1,0 +1,109 @@
+/* SELECTORES */
+
+/* 
+    Selectores simples
+        Selectores elementales
+            Selector Universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+        Selectores de atributo
+            id -> id del elemento
+            clase -> clase del elemento
+            otros atributos
+                [atributo] => Modifica todo el atributo
+                [atributo=valor] => Modifica solo los atributos con el valor puesto
+                [atributo^=valor] => Modifica los atributos que comienzen con el valor puesto
+                [atributo*=valor] => Modifica los atributos que contenga el valor
+                [atributo$=valor] => Modifica los atributos que termine con el valor puesto
+                [atributo|=valor] => Modifica los atributos que tenga guiones o sin guiones
+    Selectores compuestos
+        Selectores Agrupados
+        Selectores Combinadores
+            Selector descendiente
+            Selector de hermano siguiente +
+            Selector de hermanos siguientes ~
+            Selector de hijo directo >
+*/
+
+/* Selector Universal
+*{
+    background-color: lightcoral;
+} */
+
+/* Selector de tipo o etiqueta */
+/* h1{
+    background-color: lightcyan;
+}
+
+p{
+    background-color: lightgreen;
+}
+
+ul{
+    background-color:  red;
+}
+li{
+    background-color: blue;
+} */
+
+/* Selector por id */
+/* #title {
+    background-color: lightgreen;
+}
+/* Selector por Clase */
+
+/* .title {
+    background-color: lightsalmon;
+}
+.texto{
+    background-color: limegreen;
+} */
+
+
+/* Otros Atributos */
+
+/* [href]{
+    background-color: mediumorchid;
+}
+[href="https://google.com"]{
+    background-color: orangered;
+}
+[href^="color"]{
+    background-color: red;
+}
+[href*="modo"]{
+    background-color: green;
+}
+[href$="rojo"]{
+    background-color: steelblue;
+}
+
+[lang|="en"]{
+    background-color: magenta;
+} */
+/* Selectores agrupados */
+/* .texto,
+.texto-2,
+.texto-3,
+.texto-4{
+    background-color: steelblue;
+} */
+
+/* selectores descendiente */
+/* div .title-2 {
+    background-color: teal;
+} */
+/* Selector de hermano siguiente */
+/* .texto-2 + h2{
+    background-color: tomato;
+
+} */
+/* Selector de todos hermanos siguiente */
+
+/* .texto-2 ~ p{
+    background-color: teal;
+} */
+/* Selector de hijo directo */
+.container > p{
+    background-color: tomato;
+
+}

@@ -1,0 +1,40 @@
+/* Selectores */
+/* 
+    selectores Simples
+        Selectores elementales
+            Selector universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+        Selectores de atributos
+            id -> id del elemento
+            clase -> clase del elemento
+            otros atributos
+                [atributo]
+                [atributo = valor]->que tenga el valor
+                [atributo^=valor]->inicie con valor
+                [atributo*=valor]->contenga el valor
+                [atributo$=valor]->termine con valor
+                [atributo|=valor]
+
+    Selectores compuestos
+        Selectores agrupados
+        Selectores combinadores
+            Selector descendiente
+            selector hermano siguiente si un elemento esta dentro del otro son hijos y si estan en el mismo nivel son hermanos
+            Selector de hermanos siguientes
+        Pseudoclases - Pseoudoelemetos
+ */
+div .title-2{
+    background-color: teal;
+}
+
+.title-2 + .text-3{
+    background-color: tomato;
+}
+
+.text-2 ~ p{
+    background-color: violet;
+}
+.container > p{
+
+    background-color: tomato;
+}

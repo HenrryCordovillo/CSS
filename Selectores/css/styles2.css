@@ -1,0 +1,29 @@
+/* Selectores */
+/* 
+    selectores Simples
+        Selectores elementales
+            Selector universal -> *
+            Selector de tipo o etiqueta -> Nombre de la etiqueta
+        Selectores de atributos
+            id -> id del elemento
+            clase -> clase del elemento
+            otros atributos
+                [atributo]
+                [atributo = valor]->que tenga el valor
+                [atributo^=valor]->inicie con valor
+                [atributo*=valor]->contenga el valor
+                [atributo$=valor]->termine con valor
+                [atributo|=valor]
+
+    Selectores compuestos
+        Selectores agrupados
+        Selectores combinadores
+        Pseudoclases - Pseoudoelemetos
+ */
+
+.text,
+.text-2,
+.text-3,
+.text-4{
+    background-color: seagreen;
+}
